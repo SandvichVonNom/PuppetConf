@@ -1,0 +1,21 @@
+oifeqw;nf;oqwl
+---
+:backends:
+yaml
+fdhbsjafkajhsfb kjdsafbhjask
+
+:yaml:
+  :datadir: /etc/puppet/hiera/
+
+:hierarchy:
+  - "node/%{::fqdn}"
+  - common
+:hierarchy:
+  - "node/%{::fqdn}"
+  - common
+
+
+:logger:
+console
+
+kjbdsvkjbfdvkljhbfdsajbfkljbf

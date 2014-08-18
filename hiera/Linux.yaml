@@ -1,0 +1,7 @@
+---
+
+classes:
+  - homenet-ntp
+  - homenet-apache
+  - homenet-hosts
+  - git

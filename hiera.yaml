@@ -1,0 +1,13 @@
+:backends:
+    - yaml
+
+:yaml:
+    :datadir: '/etc/puppet/hiera'
+
+:hierarchy:
+    - "hostname/%{::fqdn}"
+    - "%{osfamily}"
+    - "%{kernel}"
+#    - common
+
+:logger: console

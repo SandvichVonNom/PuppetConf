@@ -1,0 +1,7 @@
+---
+classes:
+   - homenet-postgresql
+   - homenet-python
+
+pg_pass: "204120412041"
+
